@@ -1,0 +1,99 @@
+All design
+
+html {
+	background-color: rgb(20, 20, 20);
+}
+
+body {
+	background-color: #FBF8F1;
+	color: rgb(30, 30, 30);
+	font-family: 'Robotto', sans-serif;
+	font-size: 16px;
+	
+}
+
+h1, h2, h3 , p {
+	font-family: 'Robotto', sans-serif;
+}
+h1 {
+	color: rgb(0, 0, 0);
+	font-size: 28px;
+}
+h2 {
+	color: rgb(191, 42 ,44);
+	font-size: 16px;
+}
+a {
+	text-decoration: none;
+	color: #1C658C;
+}
+a:hover {
+	color: rgb(191, 42 ,44);
+}
+
+p {
+	font-size: 14px;
+}
+
+.container{
+	max-width: 750px;
+	margin: 10px auto;
+	text-align: center;
+}
+
+.card-white {
+	background: white;
+	padding: 30px;
+	margin: 50px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
+	border-radius: 9px;
+}
+
+.img-circle {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+
+.btn-blue {
+	background-color: #1C658C;
+	color: white;
+	padding: 8px;
+	border-radius: 5px;
+}
+.btn-blue:hover {
+	background-color: rgb(191, 42 ,44);
+	color: black;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 10px;
+}
+.list-inline li {
+	display: inline;
+	padding: 6px;
+}
+.list-inline i {
+	font-size: 24px;
+}
+
+#introduction p {
+	margin-bottom: 34px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 620px) {
+  .container {
+    width: 450px;
+  }
+}
